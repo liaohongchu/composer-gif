@@ -1,0 +1,19 @@
+{
+    "name": "dell/test",
+    "authors": [
+        {
+            "name": "liao",
+            "email": "594380477@qq.com"
+        }
+    ],
+    "require": {
+    	"monolog/monolog": "1.0.*",
+        "driehle/php-crypt-md5": "2.0.*@dev"
+    },
+    "autoload":{
+        "psr-4": {
+            "Wanlliu\\Hello\\": "vendor/wanlliu/hello/src"
+        }
+    }
+
+}
